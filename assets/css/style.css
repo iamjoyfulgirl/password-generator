@@ -154,7 +154,7 @@ button[disabled] {
     /* font-family: monospace; */
   }
 }
-/* A media query for max-width: 690px */
+/* A media query for max-width: 500px */
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
