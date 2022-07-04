@@ -5,7 +5,7 @@ This is a browser based app that uses JavaScript to generate a random, secure pa
 This project has been deployed to GitHub Pages. You can follow the deployment link. Or, download the sources files from GitHub and run them locally.
 
 * [GitHub Repository](https://github.com/iamjoyfulgirl/password-generator)
-* [Deployed GitHub IO]()
+* [Deployed GitHub IO](https://iamjoyfulgirl.github.io/password-generator)
 * [Full Demo Video](https://drive.google.com/file/d/164A8yYYAOdkg-xRkWsx-K4PrPyuNDn05/view)
 
 ![Password-Generator screenshot](assets/images/password-generator-image.png)
