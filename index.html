@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- This is the first step in making the document responsive but scaling the items to screen -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Sherri Knight JavaScript Homework-3 Random Password Generator -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- This is the title-->
+  <title>Password Generator</title>
+  <!-- These are the style links. Reset CSS and Styles CSS -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+<!-- This is the body -->
+
+<body>
+  <!--This is the wrapper container with all of the content-->
+  <div class="wrapper">
+    <header>
+      <h1>Password Generator</h1>
+    </header>
+    <!--This is the content area-->
+    <div class="card">
+      <div class="card-header">
+        <h2>Generate a Password</h2>
+      </div>
+      <!-- This is a readonly text area for output-->
+      <div class="card-body">
+        <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+      </div>
+      <!-- This is the div for the button -->
+      <div class="card-footer">
+        <button id="generate" class="btn">Generate Password</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- This is the Javascript document -->
+  <script src="script.js"></script>
+</body>
+
+</html>
